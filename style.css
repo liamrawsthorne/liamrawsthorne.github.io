@@ -1,0 +1,343 @@
+@font-face {
+  font-family: myFont;
+  src: url(assets/fonts/berlin-sans-fb-demi-bold.ttf);
+}
+
+@font-face {
+  font-family: myFontReg;
+  src: url(assets/fonts/berlin-sans-fb-regular.ttf);
+}
+
+html {
+	background-color: #366FD2;
+	/*cursor: url(sticker2.png), auto;*/
+}
+
+h2 {
+	font-family: myFont;
+}
+
+.pb-45 {
+	padding-bottom: 2rem !important;
+}
+
+.header {
+	background-color: #52c2ff;
+	padding-bottom: 150px;
+}
+
+.header a {
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-flex;
+}
+
+.header i {
+	font-size: 2em;
+	color:;
+}
+
+.btn-primary {
+	border: 1px solid #ffffff !important;
+	background-color: transparent !important;
+	font-family: myFont;
+	border-radius: 10px !important;
+}
+
+.steam:hover {
+	background-color: #000000 !important;
+	transition: 0.3s;
+	border: 1px solid #000000 !important;
+}
+
+.twitch:hover {
+	background-color: #9146ff !important;
+	transition: 0.3s;
+	border: 1px solid #9146ff !important;
+}
+
+
+.fa-steam {
+	/*vertical-align: middle !important;*/
+}
+
+.cta {
+	font-size: 1.5em;
+	height: 100%;
+}
+
+
+.main {
+	background-color: #3396ff;
+	color: #ffffff;
+	font-weight: 700;
+}
+
+.main input {
+	width: 80%;
+}
+
+.auth {
+	background-color: #9e5cfe;
+}
+
+.auth h2 {
+	color: #ffffff;
+	font-family: myFont;
+}
+
+.access-input {
+	border: none !important;
+	color: #000000 !important;
+	font-family: myFontReg;
+	font-size: 1.3em !important;
+	letter-spacing: 1px !important;
+}
+
+.eye {
+	background-color: #5d32de !important;
+	border: none !important;
+}
+
+.eyeclose {
+	background-color: #5d32de !important;
+	border: none !important;
+	visibility: hidden;
+}
+
+.eyei {
+	cursor: pointer;
+}
+
+.clipi {
+	cursor: pointer;
+}
+
+#eyecopy {
+	color: #ffffff;
+	font-size: 1.3em;
+}
+
+#clipboard {
+	color: #ffffff;
+	font-size: 1.3em;
+}
+
+.copylink {
+	border: 2px solid #a731e7;
+	cursor: pointer;
+	width: 100%;
+	color: #a731e7;
+	font-family: myFont;
+	font-size: 1.3em;
+	background-color: #ed8bfa;
+}
+
+.copylink:hover {
+	text-decoration: none;
+	color: #5d32de;
+}
+.toast {
+	position: absolute; 
+	bottom: 0; 
+	right: 0;
+	background-color: #5d32de !important;
+	color: #ffffff !important;
+	font-family: myFontReg;
+	font-size: 1.1em !important;
+	letter-spacing: 1px !important;
+	max-width: 430px !important;
+}
+
+.body {
+	background: url(/assets/images/Background_Tile.png) fixed; 
+}
+
+.authbody {
+	background-color: #6e40b1 !important;
+	height: 100%;
+	margin: 0;
+}
+
+.col-auth {
+
+}
+
+.authcode {
+
+}
+
+.bi-eye-slash {
+	transition: 0.5s;
+}
+
+.logo {
+	width: 240px;
+  	height: auto;
+	padding-bottom: 50px;
+}
+
+.video {
+	margin-top: -200px;
+}
+
+.video iframe {
+
+}
+
+.about {
+	line-height: 2;
+	font-family: myFontReg;
+	letter-spacing: 1px;
+	line-height: 2;
+	font-size: 1.5em;
+}
+
+.desc {
+	font-size: 1.5em;
+}
+
+.vid {
+
+}
+
+.video-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	width: 100%;
+	overflow: hidden; 
+}
+
+.video-container iframe, .video-container object, .video-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.fix {
+	display: flex !important;
+}
+
+.buysteam {
+	filter: drop-shadow(0 .5rem 1rem rgba(0,0,0,.15));
+	 
+
+}
+
+#gallery img:hover {
+	filter: drop-shadow(0 0 10px #333);
+	transition: 0.3s;
+}
+
+.footer {
+	background-color: #0f2d4c; 
+	font-family: myFont;
+}
+
+.footer img {
+	width: 80px;
+}
+
+.footer i {
+	font-size: 2.5em;
+	transition: 0.1s
+}
+
+.footer a {
+	color: #ffffff;
+}
+
+.footer a:hover {
+	text-decoration: none;
+}
+
+.discord:hover {
+	color: #7289da;
+	transition: 0.1s;
+}
+
+.twitter:hover {
+	color: #1da1f2;
+	transition: 0.1s;
+}
+
+.links{
+	display: inline-block;
+}
+
+.links a:hover {
+	color: #AAAAAA;
+}
+
+.modal-backdrop.show {
+    opacity: 0.8 !important;
+}
+
+.modal-body {
+	padding: 0rem !important;
+}
+
+.container-xl {
+	max-width: 950px !important;
+}
+
+@media only screen and (max-width: 767px) {
+.cta {
+	font-size: 1.4em;
+}
+
+@media only screen and (max-width: 575px) {
+.header {
+	padding-bottom: 100px;
+}
+
+.nav.my-4 {
+	margin-top: 2rem !important;
+	margin-bottom: 2rem !important;
+}
+
+.video {
+	margin-top: -100px;
+}
+
+.logo {
+	width: 180px;
+}
+
+.about {
+	line-height: 1.7;
+	font-size: 1.3em;
+	letter-spacing: 1px;
+}
+
+.cta {
+	display: none;
+}
+
+.btn-primary {
+	border-color: transparent !important;
+}
+
+.header i {
+	font-size: 2.5em;
+}
+
+.footer img {
+	width: 60px;
+}
+
+.desc {
+	font-size: 1.2em;
+}
+}
+
+
